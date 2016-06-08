@@ -1,0 +1,3 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,userID,cardId,orgId,expectContent,comments
+1,组织-授权组织成员-空参数-失败,fail,null,322905,322905,"""returnCode"":""10027""",Grant fail since without userId
+2,组织-授权组织成员-重复授权-失败,fail1,324527,322905,301878,"""returnCode"":""10035""",Grant fail since it is already granted

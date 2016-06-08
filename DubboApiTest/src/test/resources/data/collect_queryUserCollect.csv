@@ -1,0 +1,8 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,用户收藏-获取收藏-空用户信息-失败,fail,null1,"""returnCode"":""10005""",Setting userCollectInfo eq null and return error code
+2,用户收藏-获取收藏-空收藏信息-失败,fail,null2,"""returnCode"":""10005""",Setting UserCollect eq null and return error code
+3,用户收藏-获取收藏-空用户id-失败,fail,null3,"""returnCode"":""10005""",Setting UserCollect.userid eq null and return error code
+4,用户收藏-获取用户收藏-空更新时间-成功,success,no,"""returnCode"":""10004""",Setting updateTime as null and would retrieve the data by userid
+5,用户收藏-获取用户收藏-负更新时间-成功,success,-1,"""returnCode"":""10004""",Setting updateTime as a negative and would retrieve the data by userid
+6,用户收藏-获取所有收藏-更新时间为0-成功,success,0,"""returnCode"":""10004""",would retrive all the result
+7,用户收藏-获取收藏-更新时间-成功,success,1442987048699,"""returnCode"":""10004""",retrieve data by the updateTime

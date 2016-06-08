@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,nodeId,orgId,expectContent,comments
+1,组织名片-组织树-空值-失败,null,,,"""returnCode"":""10005""","Setting Member node as null, it would fail to get the org member"
+2,组织名片-组织树-空节点id-失败,fail,,300265,"""returnCode"":""10005""","Setting NodeId as null, it would fail to get the org member"
+3,组织名片-组织树-空组织id-失败,fail1,300321,,"""returnCode"":""10005""","Setting orgId as null, it would fail to get the org member"
+4,组织名片-组织树-组织节点id-成功,success,300321,300265,"""returnCode"":""10004""","setting orgID and nodeId, it would retrieve all org member"

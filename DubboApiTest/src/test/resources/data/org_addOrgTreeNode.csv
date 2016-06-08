@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,parentId,dimension,name,expectContent,comments
+1,组织部门-添加-空参数-失败,fail,,,,,"""returnCode"":""10011""","Setting OrgInfo as null, it would fail the creation of Org card"
+2,组织部门-添加-空参数-失败,fail,324320,0,,API 接口测试数据， 如需清理 可以删除,"""returnCode"":""10011""","Setting userId for the Org Card, would create the card without problem"
+3,组织部门-添加-空参数-失败,dup,324320,0,0,API 接口测试数据， 如需清理 可以删除,"""returnCode"":""10019""",Setting all paramater for the OrgCard
+4,组织部门-添加-空参数-失败,success,324320,0,0,API 接口测试数据， 如需清理 可以删除+rnd,"""returnCode"":""10010""",Setting all paramater for the OrgCard

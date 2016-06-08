@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd 
+        http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+  	   http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+      http://www.springframework.org/schema/task 
+      http://www.springframework.org/schema/task/spring-task.xsd
+   		http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd
+         http://code.alibabatech.com/schema/dubbo
+         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	   
+    <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <dubbo:application name="CardAPI_test" />
+	
+    <!-- 使用zookeeper注册中心暴露服务地址 -->
+  <!--   <dubbo:registry protocol="zookeeper" address="${zkHost}"/>
+     <dubbo:monitor
+            address="dubbo://${dubboMonitor}/com.alibaba.dubbo.monitor.MonitorService"/>  -->
+
+ 	<dubbo:registry  protocol="zookeeper" address="172.28.6.41:2181,172.28.6.42:2181,172.28.6.43:2181"/>  
+    <dubbo:monitor
+            address="dubbo://172.28.6.114:6060/com.alibaba.dubbo.monitor.MonitorService"/> 
+
+	
+ 
+
+    <!-- 生成远程服务代理，可以像使用本地bean一样使用demoService check 当有服务出现循环依赖的时候设置 -->
+    
+    
+    <!--  名片相关dubbo服务 -->
+    <dubbo:reference id="userCardService" interface="com.systoon.passport.inter.IUserCardManager" check="false" timeout="6000"/>
+
+    <dubbo:reference id="cardTemplateService" interface="com.systoon.passport.inter.ICardTemplateManager" check="false"/>
+
+    <dubbo:reference id="dataPoolService" interface="com.systoon.datasecurity.inter.IDataPoolManager" check="false"/>
+
+    <dubbo:reference id="cardRecommendService" interface="com.systoon.relationship.inter.ICardRecommendRelationManager" check="false"/>
+
+	<!-- 用户相关的 -->
+	<dubbo:reference id="userService" interface="com.systoon.passport.inter.IUserManager"  check="false" timeout="6000" />
+	
+	<!--安全问题-->
+	<dubbo:reference id="securityQuestionService" interface="com.systoon.passport.inter.ISecurityQuestionManager" check="false" timeout="5000"/>
+
+	
+	<dubbo:reference id="AllCardFieldConfigService" interface="com.systoon.comment.passport.ICardTemplateManager" check="false" timeout="5000" />
+	
+	<dubbo:reference id="SpreadCategoryManagerService" interface="com.systoon.passport.inter.ISpreadCategoryManager" check="false" timeout="5000" />
+</beans>

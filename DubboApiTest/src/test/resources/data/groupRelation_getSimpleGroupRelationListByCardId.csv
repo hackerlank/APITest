@@ -1,0 +1,4 @@
+序号,标题,服务/方法,mobile,cardId,预期返回包含的内容
+1,通过名片id获取群体id列表,getCardIdListByGroupId,13581535754,323327,"""groupRelationList"":[.*""cardId"":323327.*""returnMessage"":""查询成功"""
+2,通过名片id获取群体id列表,getCardIdListByGroupId,13581535754,300156,"""groupRelationList"":[.*""cardId"":300156.*""returnMessage"":""查询成功"""
+3,通过名片id获取群体id列表,getCardIdListByGroupId,13581535754,211,"""groupRelationList"":[.*""cardId"":211.*""returnMessage"":""查询成功"""

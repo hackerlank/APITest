@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,OrgId,nodeId List,expectContent,comments
+1,组织部门-批量获取节点信息-空值-失败,null,,,"""returnCode"":""10005""","Setting argument null, it would fail to get the node info"
+2,组织部门-批量获取节点信息-空节点列表-失败,fail,1446004625252893,,"""returnCode"":""10005""","Setting nodeList, it would fail to get the node info"
+3,组织部门-批量获取节点信息-节点列表-成功,success,1446004625252893,368857-368856,"[{""nodeId"":368857,""orgId"":1446004625252893,""dimensionId"":0,""parentId"":0,""name"":""卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡卡"",""createTime"":1446094815693,""updateTime"":1446095089715,""status"":1,""path"":""0/368857/""},{""nodeId"":368856,""orgId"":1446004625252893,""dimensionId"":0,""parentId"":0,""name"":""测试"",""createTime"":1446094575997,""updateTime"":1446094943954,""status"":1,""path"":""0/368856/""}]","Setting orgId, it would get the node relation member"

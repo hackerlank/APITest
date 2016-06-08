@@ -1,0 +1,3 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,CardId,expectContent,comments
+1,组织-获取组织名片-缺少名片id-失败,fail1,,"""returnCode"":""10005""","Setting OrgInfo as null, it would fail to retrieve Org card"
+3,组织-获取组织成员-包含所需参数-成功,success,338042,"""returnCode"":""10004""",retrieve the card by cardId

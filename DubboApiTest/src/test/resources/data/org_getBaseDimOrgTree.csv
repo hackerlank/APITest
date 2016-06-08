@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,expectContent,comments
+1,组织部门-通过基本维度得到组织节点-空参数-失败,null,,"""returnCode"":""10005""","Setting OrgTreeNodeInfo nodeId as null, it would fail to get the nodes"
+2,组织部门-通过父id获取节点下所有节点-空参数-失败,fail,,"""returnCode"":""10005""","Setting OrgTreeNodeInfo org as null, it would fail to get the nodes for the given dimension 0"
+3,组织部门-通过父id获取节点下所有节点-空参数-失败,success,300183,"[{""nodeId"":0,""orgId"":300183,""dimensionId"":0,""parentId"":-1,""name"":""大唐国际"",""status"":1,""subNumbers"":4}],""returnCode"":""10004""","Setting OrgTreeNodeInfo orgId, it would get the nodes under the org and the dimension=0"

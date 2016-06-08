@@ -1,0 +1,3 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,组织-获取定制表-空值-失败,fail,null,"""returnCode"":""10005""","pass null to parama, retrieve fail"
+2,组织-获取定制表-组织id-成功,success,1445410207992788,"""returnCode"":""10004""",retrieve all status=1 card

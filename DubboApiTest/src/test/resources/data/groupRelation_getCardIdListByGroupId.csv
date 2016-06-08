@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,groupId,预期返回包含的内容
+1,通过用户id获取群员名片id列表,getCardIdListByGroupId,13581535754,101067,"""groupRelationList"":[.*""returnMessage"":""查询成功"""
+1,通过用户id获取群员名片id列表,getCardIdListByGroupId,13581535754,100500,"""groupRelationList"":[.*""returnMessage"":""查询成功"""

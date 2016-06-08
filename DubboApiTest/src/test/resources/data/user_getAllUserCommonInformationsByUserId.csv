@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,预期返回包含的内容
+1,查询用户的所有常用资讯,getAllUserCommonInformationsByUserId,13581535754,"""userCommonInformationList"":[{.*haoyx.*"

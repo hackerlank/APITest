@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,birthday,email,预期返回包含的内容
+1,更新用户信息,updateUserInfo,13581535754,19890402,hyx@msn.com,"""email"":""hyx@msn.com"".*""birthday"":""19890402"""
+2,用户修改密码,updateUserInfo,13581535754,19840314,haoyuexun@126.com,"""email"":""haoyuexun@126.com"".*""birthday"":""19840314"""

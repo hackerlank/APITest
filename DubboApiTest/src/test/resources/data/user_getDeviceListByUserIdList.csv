@@ -1,0 +1,3 @@
+序号,标题,服务/方法,输入的参数,预期返回包含的内容
+1,通过手机号获取用户扩展信息,getUserListByIdList,15010106923:13581535754,haoyx_channel
+2,通过手机号获取用户扩展信息,getUserListByIdList,18611772222:13581535754,haoyx_channel

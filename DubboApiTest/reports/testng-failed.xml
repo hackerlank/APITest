@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test name="ToonDubboApiTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.toon.dubboTest.PassportInterface.run.UserTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="testUpdatePassword"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="init"/>
+          <include name="destroy"/>
+        </methods>
+      </class> <!-- com.toon.dubboTest.PassportInterface.run.UserTest -->
+    </classes>
+  </test> <!-- ToonDubboApiTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

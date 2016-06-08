@@ -1,0 +1,241 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.toon</groupId>
+  <artifactId>DubboApiTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>toon_dubboApiTest</name>
+  
+
+  <properties> 	
+      	<spring.version>3.2.3.RELEASE</spring.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>  
+  </properties>
+  
+  <profiles>
+      
+        <!-- 测试环境 -->
+        <profile>
+            <id>test</id>
+            <properties>
+               <!--   <webAppRootKey>${project.artifactId}</webAppRootKey> -->
+                <databaseBean>jndi</databaseBean>
+                <redisHost1>172.28.6.61</redisHost1>
+                <redistPort1>6379</redistPort1>
+                <redisHost2>172.28.6.61</redisHost2>
+                <redistPort2>6379</redistPort2>
+                <redisHost3>172.28.6.61</redisHost3>
+                <redistPort3>6379</redistPort3>
+                <redisHost4>172.28.6.61</redisHost4>
+                <redistPort4>6379</redistPort4>
+                <sendMsg>0</sendMsg>
+                <brokerList>172.28.6.41:9092,172.28.6.42:9092,172.28.6.43:9092</brokerList>
+                <zkHost>172.28.6.41:2181,172.28.6.42:2181,172.28.6.43:2181</zkHost>
+                <!-- rpc调用方式(value is dubbo  or hessian)-->
+                <serviceType>dubbo</serviceType>
+                <dubboMonitor>172.28.6.114:6060</dubboMonitor>
+                <!--  验证开关  -->
+                <verifySwitch>on</verifySwitch>
+            </properties>
+            <build>
+				<resources>
+					<resource>
+						<directory>src/test/resources</directory>
+						<filtering>true</filtering>
+					</resource>
+				</resources>
+			</build>
+			 <activation>  
+                <activeByDefault>true</activeByDefault>  
+            </activation>
+        </profile>
+     </profiles>
+  
+  <dependencies>
+	   <dependency>
+           <groupId>com.systoon</groupId>
+           <artifactId>PassportInterface</artifactId>
+           <version>3.0.6</version> 
+	   </dependency>
+	   
+	   <dependency>
+		    <groupId>com.systoon</groupId>
+		    <artifactId>RelationshipInterface</artifactId>
+		    <version>3.0.2</version>
+		</dependency>
+		
+	    <dependency>
+			<groupId>com.systoon</groupId>
+			<artifactId>OrgManageInterface</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+	  <!--  
+	   云存储 
+	   <dependency>
+            <groupId>com.systoon</groupId>
+            <artifactId>SCloudCommon</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        
+	   <dependency>
+            <groupId>com.systoon</groupId>
+            <artifactId>SCloudWebFramework</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        
+	   <dependency>
+            <groupId>com.systoon</groupId>
+            <artifactId>SCloudMaster</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        
+	    <dependency>
+            <groupId>com.systoon</groupId>
+            <artifactId>SCloudSDK</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency> -->
+	           
+        <dependency>
+    	  <groupId>junit</groupId>
+    	  <artifactId>junit</artifactId>
+          <version>4.11</version>
+        </dependency>
+        
+        <dependency>
+    	  <groupId>org.apache.commons</groupId>
+    	  <artifactId>commons-csv</artifactId>
+          <version>20070730</version>
+          <scope>system</scope>
+          <systemPath>${basedir}/lib/commons-csv-20070730.jar</systemPath>
+        </dependency>	   
+	   
+	   <dependency>
+		  <groupId>org.testng</groupId>
+		  <artifactId>testng</artifactId>
+		  <version>6.8.21</version>
+		  <scope>test</scope>
+	   </dependency>
+	    <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.5.3</version>
+             <exclusions>  
+                <exclusion>  
+                    <artifactId>spring</artifactId>  
+                    <groupId>org.springframework</groupId>  
+                </exclusion>  
+            </exclusions>  
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>3.4.6</version>
+        </dependency>
+        
+         <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.4</version>
+        </dependency>
+        
+        <!-- Spring 3 dependencies -->
+        <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+	
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+	   
+   
+        <!-- mysql-connector-java jar -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.31</version>
+        </dependency>
+
+        <!-- log jar -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+     	
+     	<dependency>
+	      <groupId>org.uncommons</groupId>
+	      <artifactId>reportng</artifactId>
+	      <version>1.1.2</version>
+	      <scope>test</scope>
+       	  <exclusions>
+           	<exclusion>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+           	</exclusion>
+       	  </exclusions>
+    	</dependency>
+    	
+      	<dependency>
+	        <groupId>com.google.inject</groupId>
+	        <artifactId>guice</artifactId>
+	        <version>3.0</version>
+	        <scope>test</scope>
+       </dependency>
+	   
+  </dependencies>
+  
+	 <build>
+	 	<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.4.2</version>
+				                 
+				 <configuration>
+					<includes>
+						<include>*</include>
+					</includes>
+					<forkMode>once</forkMode>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+					 <!-- <systemPropertyVariables>
+                         <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
+                         <org.uncommons.reportng.title>Toon Dubbo api测试报告</org.uncommons.reportng.title>
+                     </systemPropertyVariables> -->
+                     <systemProperties>
+					   <property>
+                         <name>org.uncommons.reportng.title</name>
+                         <value>Toon Dubbo api测试报告</value>
+                       </property>
+                     </systemProperties>
+					<properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                    </properties>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<testFailureIgnore>true</testFailureIgnore>					
+					<reportsDirectory>${basedir}/reports</reportsDirectory>
+				</configuration> 
+			</plugin>
+		</plugins>		
+	</build>
+ 
+</project>

@@ -1,0 +1,4 @@
+序号,标题,服务/方法,mobile,groupId,cardId,预期返回包含的内容
+1,获取某个名片id在某个群体中的关系信息,getGroupRelationByCardIdAndGroupId,13581535754,273,323327,"returnMessage"":""查询成功"""
+2,获取某个名片id在某个群体中的关系信息,getGroupRelationByCardIdAndGroupId,13581535754,281,300156,"returnMessage"":""查询成功"""
+3,获取某个名片id在某个群体中的关系信息,getGroupRelationByCardIdAndGroupId,13581535754,1024,211,"returnMessage"":""查询成功"""

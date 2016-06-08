@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,expectContent,comments
+1,组织名片-获取组织成员-空值-失败,null,,"""returnCode"":""10005""","Setting member null, it would fail to get the org relevant card"
+2,组织名片-获取组织成员-空组织id-失败,fail,,"""returnCode"":""10005""","Setting orgId as null, it would fail to get the org relevant card"
+3,组织名片-获取组织成员-组织id-成功,success,300122,"""returnCode"":""10004""","setting orgID, it would retrieve org id relevant card"

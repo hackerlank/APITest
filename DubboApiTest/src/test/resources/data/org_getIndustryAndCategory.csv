@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,行业类别-获取-空参数-成功,success,null,"""returnCode"":""10004""",Setting ParamInfo as null to retrieve all Industry and Category
+2,行业类别-获取-空时间-成功,success,null1,"""returnCode"":""10004""",Setting ParamInfo。updateTime as null to retrieve all Industry and Category
+3,行业类别-获取-空时间-成功,success,updateTime,"orgCategoryList"":[]",Setting ParamInfo。updateTime as null to retrieve all Industry and Category

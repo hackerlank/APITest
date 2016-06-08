@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,CommonLocationId,预期返回包含的内容
+1,删除用户常用地址,deleteUserCommonLocation,13581535754,323114,"""returnMessage"":""删除成功"",""returnStatus"":true"

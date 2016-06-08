@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,组织-所有组织名片-空用户id-失败,fail,null,"""returnCode"":""10005""",Setting OrgCardInfo as null to retrieave error
+2,组织-所有组织名片-用户id-成功,success,324527,"""returnCode"":""10004""","Setting userId a valid, retrieve all relevant data"
+3,组织-所有组织名片-无效用户id-空结果,success,1111111111,"""orgCardList"":[]","Setting userID a invalid id, retrive empty result"

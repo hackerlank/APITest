@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,cardId,orgId,expectContent,comments
+1,组织名片-组织成员-空值-失败,null,,,"""returnCode"":""10005""","Settingargument null, it would fail to get the org member"
+2,组织名片-组织成员-空成员id-失败,fail,300123,,"""returnCode"":""10005""","Setting orgId as null, it would fail to get the org member"
+3,组织名片-组织成员-成员id-成功,success,300123,300122,"""returnCode"":""10034""","setting orgID and cardId without customer share, it would fail and get withour right error"
+4,组织名片-组织成员-成员id-成功,success,301745,301742,"{""cardId"":301745,""cardType"":3,""nickname""","setting orgID and cardId  with custom share, it would retrieve org member card"

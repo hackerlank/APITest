@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,OrgCardId,CardList,expectContent,comments
+1,组织-保存外部联系-空值-失败,fail,null,,"""returnCode"":""10025""","pass null to parama, retrieve fail"
+2,组织-保存外部联系-空列表-失败,fail1,1445413919958879,,"""returnCode"":""10025""",retrieve all status=1 card
+3,组织-保存外部联系-组织id-成功,success,1445413919958879,1492151,"""returnCode"":""10024""",retrieve all status=1 card

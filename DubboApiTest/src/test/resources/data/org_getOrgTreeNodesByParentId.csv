@@ -1,0 +1,7 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,parentId,dimension,expectContent,comments
+1,组织部门-通过父id获取节点下所有节点-空参数-失败,null,,,,"""returnCode"":""10005""","Setting OrgTreeNodeInfo nodeId as null, it would fail to get the nodes under parent for given org"
+2,组织部门-通过父id获取节点下所有节点-空参数-失败,fail,154217,,,"""returnCode"":""10005""","Setting OrgTreeNodeInfo parent, dimension as null, it would fail to get the nodes under parent for given org"
+3,组织部门-通过父id获取节点下所有节点-空参数-失败,fail,154217,,0,"""returnCode"":""10005""","Setting OrgTreeNodeInfo parent as null, it would fail to get the nodes under parent for given org"
+4,组织部门-通过父id获取节点下所有节点-空参数-失败,fail,154217,0,,"""returnCode"":""10005""","Setting OrgTreeNodeInfo dimension as null, it would fail to get the nodes under parent for given org"
+5,组织部门-通过父id获取节点下所有节点-空参数-失败,success,154217,0,0,"{""nodeId"":368824,""orgId"":154217,""dimensionId"":0,""parentId"":0","Setting OrgTreeNodeInfo parentId as 0, it would get the nodes under parent 0 for given org"
+6,组织部门-通过父id获取节点下所有节点-空参数-失败,success,154217,368824,0,"{""nodeId"":368825,""orgId"":154217,""dimensionId"":0,""parentId"":368824","Setting OrgTreeNodeInfo parentId as 368824, it would get the nodes under parent 0 for given org"

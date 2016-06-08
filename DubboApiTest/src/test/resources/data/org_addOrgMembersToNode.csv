@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,Id,orgId,memberId,expectContent,comments
+1,组织名片-添加成员树节点-空值-失败,null,,,,"""returnCode"":""10011""","Settingargument null, it would fail to get the org member"
+2,组织名片-添加成员树节点-有效值-成功,fail,300123,300265,1444982380485825,"""returnCode"":""10011""","Setting invalid, it would fail to get the org member"
+3,组织名片-添加成员树节点-有效值-成功,success,300321,300265,1444982380485825,"""returnCode"":""10010""","Setting all valid parameters, it would fail to get the org member"

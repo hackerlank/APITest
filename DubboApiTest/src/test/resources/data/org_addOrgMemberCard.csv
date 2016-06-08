@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,name,expectContent,comments
+1,组织成员名片-添加-空参数-失败,null,null,,"""returnCode"":""10011""","Setting OrgInfo as null, it would fail the creation of Org member card"
+2,组织成员名片-添加-缺少组织id-失败,fail,,接口测试,"""returnCode"":""10011""",Settin the OrgId as null would fail the creation of the Org Member card
+3,组织成员名片-添加-所有参数-成功,success,338041,接口测试,"""returnCode"":""10010""","Setting all paramater for the OrgCard, would create the org member card successfully"

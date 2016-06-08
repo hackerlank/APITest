@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.243">
+  <properties />
+  
+  
+            <testcase name="testGetUserCardsByUserId" time="0.009" classname="com.toon.dubboTest.PassportInterface.run.UserCard1Test" />
+                <testcase name="testAddUserCard" time="0.234" classname="com.toon.dubboTest.PassportInterface.run.UserCard1Test" />
+      
+</testsuite>

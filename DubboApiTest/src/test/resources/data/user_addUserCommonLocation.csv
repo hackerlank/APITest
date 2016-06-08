@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,name,address,addressDetail,status,LocationCoordinate,预期返回包含的内容
+1,添加常用地址,addUserCommonLocation,13581535754,haoyx_dubbo_address_北京北站_status0,北京市西城区西直门北大街,北京市西城区西直门北大街107号,0,"39.947827,116.361905","""name"":""haoyx_dubbo_address_北京北站_status0"",""address"":""北京市西城区西直门北大街"",""locationDetail"":""北京市西城区西直门北大街107号"",""locationCoordinate"":""39.947827,116.361905"".*""status"":0"
+2,添加常用地址,addUserCommonLocation,13581535754,haoyx_dubbo_address_北京站_status1,东城区毛家湾胡同,东城区毛家湾胡同甲13号,1,"39.910967,116.434513","""name"":""haoyx_dubbo_address_北京站_status1"",""address"":""东城区毛家湾胡同"",""locationDetail"":""东城区毛家湾胡同甲13号"",""locationCoordinate"":""39.910967,116.434513"".*""status"":1"

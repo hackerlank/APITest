@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,OrgId,expectContent,comments
+1,组织部门-删除成员-空值-失败,null,,"""returnCode"":""10005""","Setting argument null, it would fail to get the node relation member"
+2,组织部门-删除成员-空NodeId-失败,fail,,"""returnCode"":""10005""","Setting orgID null, it would fail to get the node relation member"
+3,组织部门-删除成员-空orgId-失败,success,323458,"{""orgId"":323458,""memberId"":332648,""nodeId"":0","Setting orgId, it would get the node relation member"

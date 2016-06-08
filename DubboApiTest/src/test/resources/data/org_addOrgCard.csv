@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,组织名片-添加-空参数-失败,fail,null,"""returnCode"":""10011""","Setting OrgInfo as null, it would fail the creation of Org card"
+2,组织名片-添加-用户id-成功,success1,324527,"""returnCode"":""10010""","Setting userId for the Org Card, would create the card without problem"
+3,组织名片-添加-所有参数-成功,success2,324527,test,Setting all paramater for the OrgCard

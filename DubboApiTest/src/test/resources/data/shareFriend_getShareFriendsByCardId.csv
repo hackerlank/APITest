@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,cardId,预期返回包含的内容
+1,获取共享通讯录的好友清单,getShareFriendsByCardId,13581535754,333474,"""returnMessage"":""查询成功"""

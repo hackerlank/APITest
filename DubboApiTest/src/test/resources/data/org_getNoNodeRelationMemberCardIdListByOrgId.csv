@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,OrgId,expectContent,comments
+1,组织部门-获取未分配员工-空值-失败,null,,"""returnCode"":""10005""","Setting argument null, it would fail to get the no node relation member"
+2,组织部门-获取未分配员工-空orgid-失败,fail,,"""returnCode"":""10005""","Setting orgID null, it would fail to get the  no node relation member"
+3,组织部门-获取未分配员工-orgid-成功,success,324320,"""idList"":[324430]","Setting orgId, it would get the no node relation member"

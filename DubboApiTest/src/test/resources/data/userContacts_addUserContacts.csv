@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,feedId,friendMobile,friendFeedId,预期返回包含的内容
+1,添加用户联系人,addUserContacts,13581535754,c_333474,15010386819,c_1647,"""returnMessage"":""重复添加"""
+2,添加用户联系人,addUserContacts,13581535754,c_333474,15321995561,c_1709,"""returnMessage"":""重复添加"""

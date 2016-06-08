@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,commonInformationId,Content,SimpleName,status,预期返回包含的内容
+1,更新常用资讯,updateUserCommonInformation,13581535754,323011,dubbo添加常用资讯内容_修改,dubbo添加常用资讯简单名称-修改,0,"""returnMessage"":""更新成功"",""returnStatus"":true"

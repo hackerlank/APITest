@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,feedId,预期返回包含的内容
+1,获取推荐关系列表 参数 名片id 和 推荐状态（可选）,getCardRecommendRelationListByCardId,13581535754,c_333474,"""cardRecommendRelationList"":[.*],""returnCode"":""10004"",""returnMessage"":""查询成功"""
+2,获取推荐关系列表 参数 名片id 和 推荐状态（可选）,getCardRecommendRelationListByCardId,13581535754,c_323327,"""cardRecommendRelationList"":[.*],""returnCode"":""10004"",""returnMessage"":""查询成功"""

@@ -1,0 +1,6 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,nodeId,name,expectContent,comments
+1,组织部门-验证组织节点名-空参数-失败,null,,,,"""returnCode"":""10009""","Setting OrgTreeNodeInfo nodeId as null, it would fail validate the org name"
+2,组织部门-验证组织节点名-空组织节点名称-失败,fail,1445586212892702,,,"""returnCode"":""10009""","Setting OrgTreeNodeInfo name as null, it would fail validate the org node name"
+3,组织部门-验证组织节点名-空组织id-失败,fail,,,人事中心,"""returnCode"":""10009""","Setting OrgTreeNodeInfo orgId as null, it would fail validate the org node name"
+4,组织部门-验证组织节点名-空节点名-成功,success,1445586212892702,,测试中心,"""total"":5","Setting OrgTreeNodeInfo OrgId and name, it would validate all node name count under the org"
+5,组织部门-验证组织节点名-特定节点名-成功,success,1445586212892702,368704,测试中心,"""total"":4","Setting OrgTreeNodeInfo OrgId and name, it would validate all node name count exclude the one in the parameter under the org"

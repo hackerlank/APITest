@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,nodeId,expectContent,comments
+1,组织部门-删除-空参数-失败,null,,,"""returnCode"":""10013""","Setting OrgTreeNodeInfo nodeId as null, it would fail delete the org node"
+2,组织部门-删除-空nodeId-失败,fail,324320,,"""returnCode"":""10013""","Setting OrgTreeNodeInfo as null, it would fail delete the org node"
+3,组织部门-删除-空orgId-失败,fail,,368817,"""returnCode"":""10013""","Setting OrgTreeNodeInfo OrgId null, it would fail delete the org node"
+4,组织部门-删除-成功,success,324320,368819,"{""nodeId"":368819,""orgId"":324320,""dimensionId"":0,""par","Setting OrgTreeNodeInfo Org andNodeId, it would delete the org node by setting the status as 0"

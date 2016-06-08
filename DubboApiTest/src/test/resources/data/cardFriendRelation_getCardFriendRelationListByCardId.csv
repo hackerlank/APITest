@@ -1,0 +1,3 @@
+序号,标题,服务/方法,cardId,预期返回包含的内容
+1,通过名片id获取名片朋友关系列表-秋天开了,getCardFriendRelationListByCardId,333474,"""cardFriendRelationList"":[{""cardId"":333474.*""returnMessage"":""查询成功"",""returnStatus"":true"
+2,通过名片id获取名片朋友关系列表-Haoyx,getCardFriendRelationListByCardId,300156,"""cardFriendRelationList"":[{""cardId"":300156.*""returnMessage"":""查询成功"",""returnStatus"":true"

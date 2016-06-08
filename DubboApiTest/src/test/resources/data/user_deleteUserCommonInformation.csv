@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,commonInformationId,预期返回包含的内容
+1,删除常用资讯,deleteUserCommonInformation,13581535754,323012,"""returnMessage"":""删除成功"",""returnStatus"":true"

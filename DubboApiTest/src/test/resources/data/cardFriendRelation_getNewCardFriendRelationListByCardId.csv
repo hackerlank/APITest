@@ -1,0 +1,3 @@
+序号,标题,服务/方法,cardId,预期返回包含的内容
+1,通过名片id查询所有新请求添加的朋友 即未接受的朋友,getNewCardFriendRelationListByCardId,333474,"""cardFriendRelationList"":[{""cardId"":.*""returnMessage"":""查询成功"",""returnStatus"":true"
+2,通过名片id查询所有新请求添加的朋友 即未接受的朋友,getNewCardFriendRelationListByCardId,300156,"""cardFriendRelationList"":[{""cardId"":.*""returnMessage"":""查询成功"",""returnStatus"":true"

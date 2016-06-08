@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,feedId,RecommendFeedId,预期返回包含的内容
+1,更新推荐关系,updateCardRecommendRelation,13581535754,c_333474,c_101663,"""cardRecommendRelation"":{""feedId"":""c_333474"",""userId"":300141,""recommendFeedId"":""c_101663"".*""returnMessage"":""更新成功"""
+2,更新推荐关系,updateCardRecommendRelation,13581535754,c_333474,c_101696,"""cardRecommendRelation"":{""feedId"":""c_333474"",""userId"":300141,""recommendFeedId"":""c_101696"".*""returnMessage"":""更新成功"""

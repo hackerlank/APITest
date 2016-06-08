@@ -1,0 +1,9 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,用户收藏-添加-空用户信息-失败,fail,null1,"""returnCode"":""10011""",Setting userCollectInfo eq null and return error code
+2,用户收藏-添加-空收藏信息-失败,fail,null2,"""returnCode"":""10011""",Setting UserCollect eq null and return error code
+3,用户收藏-添加-空用户id-失败,fail,null3,"""returnCode"":""10011""",Setting UserCollect.userid eq null and return error code
+4,用户收藏-添加-空用户id-失败,fail,null4,"""returnCode"":""10011""",Setting UserCollect.type as null and return error code
+5,用户收藏-添加-空用户id-失败,fail,null5,"""returnCode"":""10011""",Setting UserCollect.ObjectId as null and return error code
+6,用户收藏-添加-对象内容-成功,success,Dubbo API test,"""returnCode"":""10010""",Insert a Collect successfully
+7,用户收藏-添加-重复收藏-成功,dup,Dubbo API test,"""returnCode"":""11013""",Add duplicate collect
+8,用户收藏-添加-所有数据-成功,all,Dubbo API test+rnd,"""returnCode"":""10010""",Add duplicate collect

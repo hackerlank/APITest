@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,cardId,groupId,预期返回包含的内容
+1,删除群体关系(指群员的退出),deleteGroupRelation ,13581535754,333474,101074,"""returnMessage"":""删除成功"""

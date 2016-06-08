@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,预期返回包含的内容
+1,通过用户id查询所有新请求添加的朋友 即未接受的朋友_haoyx,getNewCardFriendRelationListByUserId,13581535754,"""cardFriendRelationList"":[.*""returnMessage"":""查询成功"",""returnStatus"":true"
+2,通过用户id查询所有新请求添加的朋友 即未接受的朋友_songwei,getNewCardFriendRelationListByUserId,15010106923,"""cardFriendRelationList"":[.*""returnMessage"":""查询成功"",""returnStatus"":true"

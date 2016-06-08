@@ -1,0 +1,41 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>dev0</id>
+            <repositories>
+                <repository>
+                    <id>remote-nexus</id>
+                    <url>http://maven.sqtoon.com/nexus/content/groups/public/</url>
+                    <releases>
+                        <enabled>true</enabled>
+						<updatePolicy>always</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+         <profile>
+            <id>dev1</id>
+            <repositories>
+                <repository>
+                    <id>local-nexus</id>
+                    <url>http://maven.sqtoon.com/nexus/content/repositories/releases/</url>
+                    <releases>
+                        <enabled>true</enabled>
+						<updatePolicy>always</updatePolicy>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+   <activeProfiles>
+        <activeProfile>dev0</activeProfile>
+        <activeProfile>dev1</activeProfile>
+   </activeProfiles>
+   
+</settings>

@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,channel,Platform,AppVersion,预期返回包含的内容
+1,保存用户设备信息,saveUserDeviceInfo,13581535754,haoyx_channel,android,3,"""returnMessage"":""保存成功"",""returnStatus"":true"

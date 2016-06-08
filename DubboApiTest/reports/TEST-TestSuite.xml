@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="2.415" errors="0" skipped="1" tests="1" name="TestSuite">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="env.SYSTEMROOT" value="C:\Windows"/>
+    <property name="localRepository" value="D:\java_env\maven_repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.CURR_DIR" value="D:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="sun.boot.class.path" value="D:\java_env\jdk1.7.0_17\jre\lib\resources.jar;D:\java_env\jdk1.7.0_17\jre\lib\rt.jar;D:\java_env\jdk1.7.0_17\jre\lib\sunrsasign.jar;D:\java_env\jdk1.7.0_17\jre\lib\jsse.jar;D:\java_env\jdk1.7.0_17\jre\lib\jce.jar;D:\java_env\jdk1.7.0_17\jre\lib\charsets.jar;D:\java_env\jdk1.7.0_17\jre\lib\jfr.jar;D:\java_env\jdk1.7.0_17\jre\classes"/>
+    <property name="env.COMPUTERNAME" value="SYS-20150706ACK"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="env.HOMEPATH" value="\Users\Administrator"/>
+    <property name="user.name" value="haoyuexun"/>
+    <property name="maven.build.version" value="Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-15T01:29:23+08:00)"/>
+    <property name="env.WINDOWS_TRACING_FLAGS" value="3"/>
+    <property name="env.PATH" value="C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\java_env\jdk1.7.0_17\bin;D:\java_env\jdk1.7.0_17\jre\bin;D:\java_env\Android_SDK_windows\adt-bundle-windows-x86-20131030\sdk\tools;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\java_env\Android_SDK_windows\adt-bundle-windows-x86-20131030\sdk\platform-tools;D:\java_env\apache-ant-1.9.6\bin;D:\java_env\apache-maven-3.2.5\bin;"/>
+    <property name="user.language" value="zh"/>
+    <property name="env.WINDIR" value="C:\Windows"/>
+    <property name="sun.boot.library.path" value="D:\java_env\jdk1.7.0_17\jre\bin"/>
+    <property name="classworlds.conf" value="E:\java_code\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf4501048175422801691.tmp"/>
+    <property name="env.LR_PATH" value="D:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.COMMPATH" value="C:\Program Files\Lenovo\Communications Utility"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="env.TEMP" value="C:\Users\ADMINI~1\AppData\Local\Temp"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="env.WINDOWS_TRACING_LOGFILE" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="java.endorsed.dirs" value="D:\java_env\jdk1.7.0_17\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.country" value="CN"/>
+    <property name="java.home" value="D:\java_env\jdk1.7.0_17\jre"/>
+    <property name="env.ANDROID_HOME" value="D:\java_env\Android_SDK_windows\adt-bundle-windows-x86-20131030\sdk"/>
+    <property name="env.APPDATA" value="C:\Users\Administrator\AppData\Roaming"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="os.version" value="6.1"/>
+    <property name="env.=::" value="::\"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="env.VUGEN_PATH" value="D:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.USERPROFILE" value="C:\Users\Administrator"/>
+    <property name="user.variant" value=""/>
+    <property name="env.JAVA_HOME" value="D:\java_env\jdk1.7.0_17"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env.TERM" value="dumb"/>
+    <property name="env.TMP" value="C:\Users\ADMINI~1\AppData\Local\Temp"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="env.LG_PATH" value="D:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="user.script" value=""/>
+    <property name="env.FTP_PASSIVE" value="1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="org.uncommons.reportng.title" value="Toon Dubbo api测试报告"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.CLASSPATH" value=".D:\java_env\jdk1.7.0_17\lib;D:\java_env\jdk1.7.0_17\lib\tools.jar;D:\java_env\Android_SDK_windows\adt-bundle-windows-x86-20131030\sdk\tools;;"/>
+    <property name="env.M2_HOME" value="D:\java_env\apache-maven-3.2.5"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="D:\java_env\jdk1.7.0_17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\java_env\jdk1.7.0_17\bin;D:\java_env\jdk1.7.0_17\jre\bin;D:\java_env\Android_SDK_windows\adt-bundle-windows-x86-20131030\sdk\tools;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\java_env\Android_SDK_windows\adt-bundle-windows-x86-20131030\sdk\platform-tools;D:\java_env\apache-ant-1.9.6\bin;D:\java_env\apache-maven-3.2.5\bin;;."/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="env.LR_ROOT" value="D:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="D:\java_env\apache-maven-3.2.5"/>
+    <property name="java.class.path" value="D:\java_env\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s C:\Users\Administrator\.m2\settings.xml clean test"/>
+    <property name="env.PROGRAMW6432" value="C:\Program Files"/>
+    <property name="maven.version" value="3.2.5"/>
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env.LOGONSERVER" value="\\SYS-20150706ACK"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="env.LOGGER_CONFIG_PATH" value="D:\Program Files (x86)\HP\LoadRunner\dat\ltlogconf.xml"/>
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ANT_HOME" value="D:\java_env\apache-ant-1.9.6"/>
+    <property name="surefire.test.class.path" value="E:\java_code\DubboApiTest\target\test-classes;E:\java_code\DubboApiTest\target\classes;D:\java_env\maven_repository\com\systoon\PassportInterface\3.0.6\PassportInterface-3.0.6.jar;D:\java_env\maven_repository\com\systoon\SecurityUserDataInterface\3.0.0\SecurityUserDataInterface-3.0.0.jar;D:\java_env\maven_repository\com\systoon\base-interface\3.0.0\base-interface-3.0.0.jar;D:\java_env\maven_repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;D:\java_env\maven_repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\java_env\maven_repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\java_env\maven_repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;D:\java_env\maven_repository\com\google\guava\guava\18.0\guava-18.0.jar;D:\java_env\maven_repository\com\systoon\smvc-client\3.0.0\smvc-client-3.0.0.jar;D:\java_env\maven_repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;D:\java_env\maven_repository\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;D:\java_env\maven_repository\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;D:\java_env\maven_repository\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;D:\java_env\maven_repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;D:\java_env\maven_repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;D:\java_env\maven_repository\org\apache\httpcomponents\httpmime\4.3.6\httpmime-4.3.6.jar;D:\java_env\maven_repository\org\apache\httpcomponents\fluent-hc\4.3.6\fluent-hc-4.3.6.jar;D:\java_env\maven_repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\java_env\maven_repository\com\systoon\systoon-common-base\3.0.0\systoon-common-base-3.0.0.jar;D:\java_env\maven_repository\com\google\code\gson\gson\2.3\gson-2.3.jar;D:\java_env\maven_repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar;D:\java_env\maven_repository\junit\junit\4.11\junit-4.11.jar;D:\java_env\maven_repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\java_code\DubboApiTest\lib\commons-csv-20070730.jar;D:\java_env\maven_repository\org\testng\testng\6.8.21\testng-6.8.21.jar;D:\java_env\maven_repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\java_env\maven_repository\com\beust\jcommander\1.27\jcommander-1.27.jar;D:\java_env\maven_repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\java_env\maven_repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;D:\java_env\maven_repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;D:\java_env\maven_repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\java_env\maven_repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\java_env\maven_repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\java_env\maven_repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\java_env\maven_repository\com\101tec\zkclient\0.4\zkclient-0.4.jar;D:\java_env\maven_repository\org\springframework\spring-core\3.2.3.RELEASE\spring-core-3.2.3.RELEASE.jar;D:\java_env\maven_repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\java_env\maven_repository\org\springframework\spring-context\3.2.3.RELEASE\spring-context-3.2.3.RELEASE.jar;D:\java_env\maven_repository\org\springframework\spring-aop\3.2.3.RELEASE\spring-aop-3.2.3.RELEASE.jar;D:\java_env\maven_repository\org\springframework\spring-beans\3.2.3.RELEASE\spring-beans-3.2.3.RELEASE.jar;D:\java_env\maven_repository\org\springframework\spring-expression\3.2.3.RELEASE\spring-expression-3.2.3.RELEASE.jar;D:\java_env\maven_repository\org\springframework\spring-test\3.2.3.RELEASE\spring-test-3.2.3.RELEASE.jar;D:\java_env\maven_repository\mysql\mysql-connector-java\5.1.31\mysql-connector-java-5.1.31.jar;D:\java_env\maven_repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\java_env\maven_repository\org\uncommons\reportng\1.1.2\reportng-1.1.2.jar;D:\java_env\maven_repository\velocity\velocity\1.4\velocity-1.4.jar;D:\java_env\maven_repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\java_env\maven_repository\com\google\inject\guice\3.0\guice-3.0.jar;D:\java_env\maven_repository\javax\inject\javax.inject\1\javax.inject-1.jar;D:\java_env\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="env.PROCESSOR_REVISION" value="3d04"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="env.MAVEN_OPTS" value="-Xms128m -Xmx512m"/>
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="D:\java_env\jdk1.7.0_17\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\java_code\DubboApiTest"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\Administrator\AppData\Local"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="basedir" value="E:\java_code\DubboApiTest"/>
+    <property name="env.USERNAME" value="haoyuexun"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="env.USERDOMAIN" value="SYS-20150706ACK"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="env.ANALYSIS_PATH" value="D:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.TARGETDIR" value="D:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.LOG_FILE" value="C:\Users\ADMINI~1\AppData\Local\Temp\ihp_custom_batches.log"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+  </properties>
+  <testcase time="0" classname="com.toon.dubboTest.PassportInterface.run.UserTest" name="testUpdatePassword">
+    <skipped/>
+  </testcase>
+</testsuite>

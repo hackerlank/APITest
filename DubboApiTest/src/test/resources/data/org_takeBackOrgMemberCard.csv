@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,cardId,orgId,expectContent,comments
+1,组织-收回组织成员-缺少cardid-失败,fail,,323393,"""returnCode"":""10033""",take back card fail since absent cardId
+2,组织-收回组织成员-缺少orgId-失败,fail1,323419,,"""returnCode"":""10033""",take back org card since absent orgcard
+3,组织-收回组织成员-成功,suceess,323419,323393,"""returnCode"":""10032""",take back card successfully

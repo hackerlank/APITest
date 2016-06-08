@@ -1,0 +1,3 @@
+序号,标题,服务/方法,cardId,friendCardId,预期返回包含的内容
+1,检查是否好友关系-非好友,checkIfFriend,333474,300156,"{""returnCode"":""11008"",""returnMessage"":""不是好友"",""returnStatus"":true,""total"":0}"
+2,检查是否好友关系-好友,checkIfFriend,333474,330085,"{""returnCode"":""10021"",""returnMessage"":""已经是好友"",""returnStatus"":true,""total"":1}"

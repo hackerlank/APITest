@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,组织名片-获取-空参数-失败,fail,null,"""returnCode"":""10005""","Setting OrgInfo as null, it would fail to update Org card"
+2,组织名片-获取-空id-失败,fail1,null,"""returnCode"":""10005""",Update Org card falied cause orgCardId is null
+3,组织名片-获取-介绍-成功,success,348780,"""returnCode"":""10004""",Update Org card successfully

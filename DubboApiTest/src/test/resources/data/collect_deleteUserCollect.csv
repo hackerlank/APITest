@@ -1,0 +1,6 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,expectContent,comments
+1,用户收藏-删除-空用户信息-失败,fail,null1,"""returnCode"":""10013""",Setting userCollectInfo eq null and return error code
+2,用户收藏-删除-空收藏信息-失败,fail,null2,"""returnCode"":""10013""",Setting UserCollect eq null and return error code
+3,用户收藏-添加-空收藏id-失败,fail,null3,"""returnCode"":""10013""",Setting UserCollect.collectId eq null and return error code
+4,用户收藏-添加-无效收藏id-失败,fail,null4,"""returnCode"":""10013""",Setting UserCollect.collectId as invalid value and return error code
+5,用户收藏-添加-空用户id-失败,success,ToBeDelete,"""returnCode"":""10012""",Setting UserCollect.type as null and return error code

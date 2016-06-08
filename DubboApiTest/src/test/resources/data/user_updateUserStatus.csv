@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,status,预期返回包含的内容
+1,更新用户信息,updateUserInfo,13581535754,0,"""status"":0"
+2,用户修改密码,updateUserInfo,13581535754,1,"""status"":1"

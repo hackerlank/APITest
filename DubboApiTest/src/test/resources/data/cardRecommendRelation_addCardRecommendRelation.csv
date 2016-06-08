@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,feedId,RecommendFeedId,预期返回包含的内容
+1,添加推荐关系,addCardRecommendRelation,13581535754,c_333474,c_101663,"""returnCode"":""10022"",""returnMessage"":""重复添加"""
+1,添加推荐关系,addCardRecommendRelation,13581535754,c_333474,c_101696,"""returnCode"":""10022"",""returnMessage"":""重复添加"""

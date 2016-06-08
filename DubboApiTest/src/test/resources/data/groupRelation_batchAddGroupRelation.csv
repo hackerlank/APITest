@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,cardIds,groupId,预期返回包含的内容
+1,批量添加群体关系,batchAddGroupRelation,13581535754,333474:300174:84074,101067,"""returnMessage"":""添加成功"""

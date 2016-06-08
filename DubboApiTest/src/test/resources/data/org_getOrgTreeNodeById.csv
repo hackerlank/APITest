@@ -1,0 +1,6 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,nodeId,expectContent,comments
+1,组织部门-通过id获取-空参数-失败,null,,,"""returnCode"":""10005""","Setting OrgInfo as null, it would fail getting the node info"
+2,组织部门-通过id获取-空nodeId-失败,fail,324320,,"""returnCode"":""10005""","Setting nodeId as null, it would fail getting the node info"
+3,组织部门-通过id获取-空orgId-失败,fail,,368811,"""returnCode"":""10005""","Setting orgId as null, it would fail getting the node info"
+4,组织部门-通过id获取-orgId不匹配nodeId-失败,fail,324320,368811,"""returnCode"":""10005""","Setting orgId not match with nodeId, it would fail getting the node info"
+5,组织部门-通过id获取-匹配org node id-成功,success,324320,368814,"{""nodeId"":368814,""orgId"":324320,""dimensionId"":0,""parentId"":0,","Setting all paramater, to retrieve the node info"

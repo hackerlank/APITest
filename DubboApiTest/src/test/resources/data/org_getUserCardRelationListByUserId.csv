@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,参数变量,UpdateTime,expectContent,comments
+1,组织-组织成员名片-空用户id-失败,fail,null,,"""returnCode"":""10005""",Setting CardInfo as null make retrieve failed
+2,组织-组织成员名片-用户-成功,success,324527,null,"""returnCode"":""10004""","Setting userId a valid, retrieve all relevant data"
+3,组织-组织成员名片-用虎更新时间0-成功,success,324527,0,"""returnCode"":""10004""","Setting update time small value, retrieve all result"
+4,组织-组织成员名片-用虎更新时间大值-获取空值,success,324527,999999999999999,"""userCardRelationList"":[]","Setting updatetime big value, retrieve empty result"

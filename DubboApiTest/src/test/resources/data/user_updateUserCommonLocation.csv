@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,name,CommonLocationId,status,预期返回包含的内容
+1,更新用户常用地址,updateUserCommonLocation,13581535754,haoyx_dubbo_address_北京站_status0_名称修改,323115,0,"""returnMessage"":""更新成功"",""returnStatus"":true"
+2,更新用户常用地址,updateUserCommonLocation,13581535754,haoyx_dubbo_address_北京站_status1_二次修改,323115,1,"""returnMessage"":""更新成功"",""returnStatus"":true"

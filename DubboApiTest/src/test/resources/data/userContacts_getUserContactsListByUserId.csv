@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,预期返回包含的内容
+1,获取用户联系人列表,getUserContactsListByUserId ,13581535754,"""userContactsList"":[.*],""returnCode"":""10004"",""returnMessage"":""查询成功"""
+2,获取用户联系人列表,getUserContactsListByUserId ,15010106923,"""userContactsList"":[.*],""returnCode"":""10004"",""returnMessage"":""查询成功"""

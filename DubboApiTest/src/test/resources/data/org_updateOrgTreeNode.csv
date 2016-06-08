@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,nodeId,parentId,dimension,name,expectContent,comments
+1,组织部门-更新-空参数-失败,null,,,,,,"""returnCode"":""10007""","Setting OrgInfo as null, it would fail the update the org node"
+2,组织部门-更新-空节点-失败,fail,324320,,0,0,API 接口测试数据， 如需清理 可以删除,"""returnCode"":""10007""","Setting nodeId as null for the Org Card, would fail the update for the org node"
+3,组织部门-更新-重复参数-失败,dup,324320,368817,0,0,API 接口测试数据， 如需清理 可以删除11,"""returnCode"":""10019""",Setting all paramater for the OrgCard
+4,组织部门-更新-成功,success,324320,368823,0,0,API 接口测试数据， 如需清理 可以删除+rnd,"""returnCode"":""10006""","Setting the name dup with the node under org, would get dup error message"

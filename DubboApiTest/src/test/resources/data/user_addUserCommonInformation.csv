@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,Content,SimpleName,status,预期返回包含的内容
+1,添加常用资讯,addUserCommonInformation,13581535754,dubbo添加常用资讯内容,dubbo添加常用资讯简单名称-status0,0,"""simpleName"":""dubbo添加常用资讯简单名称-status0"",""content"":""dubbo添加常用资讯内容"".*""status"":1.*"
+2,添加常用资讯,addUserCommonInformation,13581535754,dubbo添加常用资讯内容,dubbo添加常用资讯简单名称-status1,1,"""simpleName"":""dubbo添加常用资讯简单名称"",""content"":""dubbo添加常用资讯内容"".*""status"":1.*"

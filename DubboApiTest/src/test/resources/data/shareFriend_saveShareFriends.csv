@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,cardId,friendCardIds,预期返回包含的内容
+1,保存共享通讯录的好友清单,saveShareFriends ,13581535754,333474,2651:2638:2622,"""returnMessage"":""保存成功"""

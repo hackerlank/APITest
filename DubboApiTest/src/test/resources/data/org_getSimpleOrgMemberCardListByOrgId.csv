@@ -1,0 +1,5 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,orgId,page,expectContent,comments
+1,组织名片-组织成员-空值-失败,null,,,"""returnCode"":""10005""","Setting member null, it would fail to get the org member"
+2,组织名片-组织成员-空组织id-失败,fail,,,"""returnCode"":""10005""","Setting orgId as null, it would fail to get the org member"
+3,组织名片-组织成员-组织id-成功,success,301598,0,"""returnCode"":""10004""","setting orgID, it would retrieve relevant org member"
+4,组织名片-组织成员-分页-组织id-成功,success,301598,2,"""orgMemberCardList"":[]","setting orgID and page out of scope, it would retrieve empty org member list"

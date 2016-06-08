@@ -1,0 +1,2 @@
+序号,标题,服务/方法,cardId,预期返回包含的内容
+1,通过多个名片id获取名片朋友关系简单信息(不含朋友头像等信息)列表(黑名单除外)-秋天开了&Haoyx,getCardFriendRelationListByCardId,300156:333474,"""cardFriendRelationList"":[{""cardId"":333474.*""returnMessage"":""查询成功"",""returnStatus"":true"

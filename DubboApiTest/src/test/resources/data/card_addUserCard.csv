@@ -1,0 +1,2 @@
+序号,标题,服务/方法,mobile,cardName,introduction,bigImage,avatar,useStatus,exChangeMode,预期返回包含的内容
+1,添加用户名片,addUserCard,13581535754,dubbo_haoyx名片,Let's go奔向未来！,http://pic.esf.sina.com.cn/img_sh/2015/08/07/c0/31/org_20150807045937_683614389379777942.png,http://pic.esf.sina.com.cn/img_sh/2015/08/10/c0/31/org_20150810094315_599514391709957562.jpg,1,1,"""nickname"":""dubbo_haoyx名片"",""nicknamePinyin"":""dubbo_haoyxming pian"""

@@ -1,0 +1,10 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,参数变量,CardType,expectContent,comments
+1,获取-名片配置字段-null值-返回错误,null,,"""returnCode"":""10005""",Setting cardFieldConfigInfo eq null and return error code
+2,获取-名片配置字段-空名片配置-返回所有字段,-1,,"[{""fieldId"":1,""fieldName"":""workUnit"",\S*""returnStatus"":true",Setting cardFieldConfig eq null and return all field template
+3,获取-名片配置字段-空名片配置-返回所有字段,-2,,"[{""fieldId"":1,""fieldName"":""workUnit"",\S*""returnStatus"":true",Setting cardFieldConfig.updateTime eq null and return all field template
+4,获取-名片配置字段-更新时间为负值-返回所有字段,-11,,"[{""fieldId"":1,""fieldName"":""workUnit"",\S*""returnStatus"":true",Setting cardFieldConfig.updateTime less than 0 and return all field template
+5,获取-名片配置字段-个人名片-返回所有字段,-3,1,"""total"":15","Setting cardType as persoanl card, and retrieve all their field template"
+6,获取-名片配置字段-组织名片-返回所有字段,-3,2,"""total"":15","Setting cardType as organization card, and retrieve all their field template"
+7,获取-名片配置字段-员工名片-返回所有字段,-3,3,"""total"":11","Setting card Type as staff card, and retrieve all their field template"
+8,获取-名片配置字段-非法名片类型-返回所有字段,-3,4,"""cardFieldConfigList"":[]","Setting card Type as illegal card type, and woulr return an empty list"
+9,获取-名片配置字段-时间戳限制-返回所有字段,1437633541059,,"""total"":2",Setting updateTime to retrieve items later than updateTime

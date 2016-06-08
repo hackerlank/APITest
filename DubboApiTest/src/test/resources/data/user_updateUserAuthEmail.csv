@@ -1,0 +1,3 @@
+序号,标题,服务/方法,mobile,新邮箱,预期返回包含的内容
+1,更改安全邮箱,updateUserAuthEmail,13581535754,hyx@msn.com,"""returnMessage"":""更新成功"",""returnStatus"":true"
+1,更改安全邮箱,updateUserAuthEmail,13581535754,haoyuexun@126.com,"""returnMessage"":""更新成功"",""returnStatus"":true"

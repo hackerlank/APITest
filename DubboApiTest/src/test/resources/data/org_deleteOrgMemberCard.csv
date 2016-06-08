@@ -1,0 +1,4 @@
+锟斤拷锟?锟斤拷锟斤拷,标题,标记,CardId,OrgId,expectContent,comments
+1,组织-删除组织成员-缺少名片id-失败,fail1,,338041,"""returnCode"":""10013""","Setting OrgInfo as null, it would fail to delete Org card"
+2,组织-删除组织成员-缺少组织id-失败,fail2,338042,,"""returnCode"":""10013""",delete Org card falied cause orgCardId is null
+3,组织-删除组织成员-包含所需参数-失败,success,338042,338041,"""returnCode"":""10012""",delete Org card successfully
