@@ -1,0 +1,13 @@
+序号,标题,接口名称,测试URL,"deviceId
+(设备信息：ios=token android=uuid(设备唯一Id)","deviceId
+(设备信息：ios=token android=uuid(设备唯一Id)","platformVersion
+(平台版本)","appVersion
+（app版本号）",mobile,"bizKey
+（业务参数）",if_token,预期返回包含的内容
+1,验证一级组织树名称不能重复-已经存在的名字,org/validateOrgTreeNodeName,http://172.28.6.113:8080/org/validateOrgTreeNodeName,8.63637E+14,iOS,8.2,3,13581535754,"{""feedId"":""o_336506"",""name"":""人事部"",""parentId"":""0""}",yes,"""code"":""4005"""
+2,验证二级组织-已经存在的名字,org/validateOrgTreeNodeName,http://172.28.6.113:8080/org/validateOrgTreeNodeName,8.63637E+14,android,19,3,13581535754,"{""feedId"":""o_336506"",""name"":""行政部"",""parentId"":""360515""}",yes,"""code"":""4005"""
+3,验证一级组织树名称不能重复-没有重复的名字,org/validateOrgTreeNodeName,http://172.28.6.113:8080/org/validateOrgTreeNodeName,8.63637E+14,iOS,8.2,3,13581535754,"{""feedId"":""o_336506"",""name"":""总裁办"",""parentId"":""0""}",yes,"""result"":""success"""
+4,批量获取组织树节点信息 objId组织id-1个部门查询,org/getOrgTreeNodesByIdList,http://172.28.6.113:8080/org/getOrgTreeNodesByIdList,8.63637E+14,android,19,3,13581535754,"{""orgFeedId"":""o_336506"",""nodeIdList"":[360515]}",yes,"""nodeId"":""360515"",""feedId"":""o_336506"",""dimensionId"":""0"",""parentId"":""0"",""name"":""人事部"""
+5,批量获取组织树节点信息 objId组织id-1个部门查询,org/getOrgTreeNodesByIdList,http://172.28.6.113:8080/org/getOrgTreeNodesByIdList,8.63637E+14,iOS,8.2,3,13581535754,"{""orgFeedId"":""o_336506"",""nodeIdList"":[360514,360536]}",yes,"""nodeId"":""360536"",""feedId"":""o_336506"",""dimensionId"":""0"",""parentId"":""360515"",""name"":""行政部"".*""nodeId"":""360514"",""feedId"":""o_336506"",""dimensionId"":""0"",""parentId"":""0"",""name"":""技术部"""
+6,批量获取组织树节点信息 objId组织id-orgFeedId为空,org/getOrgTreeNodesByIdList,http://172.28.6.113:8080/org/getOrgTreeNodesByIdList,8.63637E+14,android,19,3,13581535754,"{""orgFeedId"":"""",""nodeIdList"":[360515]}",yes,"""code"":""4002"""
+7,批量获取组织树节点信息 objId组织id-nodeIdList为空,org/getOrgTreeNodesByIdList,http://172.28.6.113:8080/org/getOrgTreeNodesByIdList,8.63637E+14,iOS,8.2,3,13581535754,"{""orgFeedId"":""o_336506"",""nodeIdList"":[]}",yes,"""code"":""4004"""

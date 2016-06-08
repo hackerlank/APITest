@@ -1,0 +1,24 @@
+序号,标题,接口名称,测试URL,"deviceId
+(设备信息：ios=token android=uuid(设备唯一Id)","platform
+（android/ios）","platformVersion
+(平台版本)","appVersion
+（app版本号）",mobile,"bizKey
+（业务参数）","if_token
+(yes/no)",预期返回包含的内容
+1,检查-更新-ios-非最新,download/checkNewVersion,http://172.28.6.113:8090/download/checkNewVersion,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""ios"", ""version"" : ""1506022053"", ""chNO"" : ""1000""}",yes,"""newest"":""1"""
+2,检查-更新-android-非最新,download/checkNewVersion,http://172.28.6.113:8090/download/checkNewVersion,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""android"", ""version"" : ""1506022053"", ""chNO"" : ""1000""}",yes,"""newest"":""1"""
+3,检查-更新-ios-强制更新,download/checkNewVersion,http://172.28.6.113:8090/download/checkNewVersion,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""ios"", ""version"" : ""1503022053"", ""chNO"" : ""0000""}",yes,"""force"":""1"""
+4,检查-更新-android-强制更新,download/checkNewVersion,http://172.28.6.113:8090/download/checkNewVersion,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""android"", ""version"" : ""1503022053"", ""chNO"" : ""0000""}",yes,"""force"":""1"""
+5,检查-更新-查询数据为空,download/checkNewVersion,http://172.28.6.113:8090/download/checkNewVersion,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""winphone"", ""version"" : ""1503022053"", ""chNO"" : ""0000""}",yes,"""code"":""12006"""
+6,检查-更新-校验参数错误,download/checkNewVersion,http://172.28.6.113:8090/download/checkNewVersion,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""version"" : ""1507022053"", ""chNO"" : ""1000""}",yes,"""code"":""12001"""
+7,获取-版本信息-ios-成功,download/getVersionInfo,http://172.28.6.113:8090/download/getVersionInfo,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""ios"", ""version"" : ""1508061711""}",yes,"""version"":""1508061711"""
+8,获取-版本信息-安卓-成功,download/getVersionInfo,http://172.28.6.113:8090/download/getVersionInfo,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""android"", ""version"" : ""V3.0_1508051926""}",yes,"""version"":""V3.0_1508051926"""
+9,获取-版本信息-校验参数错误,download/getVersionInfo,http://172.28.6.113:8090/download/getVersionInfo,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,{},yes,"""code"":""12001"""
+10,获取-版本信息-程序执行错误,download/getVersionInfo,http://172.28.6.113:8090/download/getVersionInfo,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""android"", ""version"" : ""V3.0_1508051926"" aaa}",yes,"""code"":""12002"""
+11,获取-toon-下载二维码-ios,download/QRCode,http://172.28.6.113:8090/download/QRCode,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""ios"", ""userId"" : ""324527"", ""chNO"" : ""1000""}",yes,"""result"":""success"""
+12,获取-toon-下载二维码-android,download/QRCode,http://172.28.6.113:8090/download/QRCode,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""android"", ""userId"" : ""324527"", ""chNO"" : ""1000""}",yes,"""result"":""success"""
+13,获取-toon-下载二维码-android,download/QRCode,http://172.28.6.113:8090/download/QRCode,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""android"", ""userId"" : ""324527"", ""chNO"" : ""1000""}",yes,"""result"":""success"""
+14,获取-toon-下载二维码-长加宽,download/QRCode,http://172.28.6.113:8090/download/QRCode,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""platform"" : ""ios"", ""userId"" : ""324527"", ""chNO"" : ""1000"", ""width"" : ""150"", ""height"" : ""150""}",yes,"""result"":""success"""
+15,下载-添加-评论-用户id,download/addAdvice,http://172.28.6.113:8090/download/addAdvice,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""userId"" : ""324527""}",yes,"""result"":""success"""
+16,下载-添加-评论-电话,download/addAdvice,http://172.28.6.113:8090/download/addAdvice,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""userId"" : ""324527"", ""phone"" : ""13901234567""}",yes,"""result"":""success"""
+17,下载-添加-评论-意见,download/addAdvice,http://172.28.6.113:8090/download/addAdvice,C79C6F66-A54B-4C5F-93D7-D3EA700DD120,iOS,8.4,3,13501007293,"{""userId"" : ""324527"", ""phone"" : ""13901234567"", ""adviceContent"" : ""做的很好，继续努力""}",yes,"""result"":""success"""

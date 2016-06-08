@@ -1,0 +1,274 @@
+Buildfile: E:\java_code\toonAppTest\build.xml
+
+clean:
+   [delete] Deleting directory E:\java_code\toonAppTest\classes
+
+compile:
+    [mkdir] Created dir: E:\java_code\toonAppTest\classes
+    [javac] Compiling 28 source files to E:\java_code\toonAppTest\classes
+    [javac] ע: E:\java_code\toonAppTest\src\util\PostImg.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+     [copy] Copying 4 files to E:\java_code\toonAppTest\classes
+
+smoke:
+   [testng] [TestNG] Running:
+   [testng]   E:\java_code\toonAppTest\suite\toonApp_api.xml
+   [testng] 
+   [testng] *********************** Begin testcase **************************************
+   [testng] 测试地址：http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 用例编号�? 用例描述：获取用户安全问�? 预期结果�?result":"success"
+   [testng] 请求为：{toonKey={"authKey":{"appVersion":"3.0","deviceId":"863637027549372","platform":"android","platformVersion":"19","ticket":"D1C4A21F1CD367E20125070091F10A50","userId":"300141","userToken":"92b082d8-ca6b-4105-b6b5-0e804c455ca6"},"bizKey":"{\"mobile\":\"13581535754\"}"}}
+   [testng] ============================================
+   [testng] 测试�?��时间为：2015-08-26 09:59:44
+   [testng] 测试�?��时间为：2015-08-26 09:59:45|142
+   [testng] ----thread---start=----1
+   [testng] ----thread---start=----2
+   [testng] ----thread---start=----3
+   [testng] ----thread---start=----4
+   [testng] ----thread---start=----5
+   [testng] ---start1
+   [testng] ---start2
+   [testng] ---start3
+   [testng] ---start4
+   [testng] ---start5
+   [testng] 5 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 4 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 2 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 1 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 3 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ===========================================================
+   [testng] 线程->5 - post executed
+   [testng] 线程->5 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ===========================================================
+   [testng] 线程->2 - post executed
+   [testng] 线程->2 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ===========================================================
+   [testng] 线程->3 - post executed
+   [testng] 线程->3 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ===========================================================
+   [testng] 线程->4 - post executed
+   [testng] 线程->4 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 接口返回：id 2---{"result":"success","data":{"userQuestions":["1-您父亲的姓名是？-1","2-您母亲的姓名是？-1"]},"code":"0"}
+   [testng] ===========================================================
+   [testng] 接口返回：id 4---{"result":"success","data":{"userQuestions":["1-您父亲的姓名是？-1","2-您母亲的姓名是？-1"]},"code":"0"}
+   [testng] ===========================================================
+   [testng] 接口返回：id 5---{"result":"success","data":{"userQuestions":["1-您父亲的姓名是？-1","2-您母亲的姓名是？-1"]},"code":"0"}
+   [testng] ===========================================================
+   [testng] 接口返回：id 3---{"result":"success","data":{"userQuestions":["1-您父亲的姓名是？-1","2-您母亲的姓名是？-1"]},"code":"0"}
+   [testng] ===========================================================
+   [testng] ===========================================================
+   [testng] 线程->1 - post executed
+   [testng] 线程->1 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 接口返回：id 1---{"result":"success","data":{"userQuestions":["1-您父亲的姓名是？-1","2-您母亲的姓名是？-1"]},"code":"0"}
+   [testng] ===========================================================
+   [testng] ---join--1
+   [testng] ---join--2
+   [testng] ---join--3
+   [testng] ---join--4
+   [testng] ---join--5
+   [testng] 线程 1-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|158结束时间--2015-08-26 09:59:45|282 �?��的时间为�?24毫秒
+   [testng] 
+   [testng] 线程 2-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|158结束时间--2015-08-26 09:59:45|251 �?��的时间为�?3毫秒
+   [testng] 
+   [testng] 线程 3-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|158结束时间--2015-08-26 09:59:45|251 �?��的时间为�?3毫秒
+   [testng] 
+   [testng] 线程 4-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|158结束时间--2015-08-26 09:59:45|251 �?��的时间为�?3毫秒
+   [testng] 
+   [testng] 线程 5-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|158结束时间--2015-08-26 09:59:45|251 �?��的时间为�?3毫秒
+   [testng] 
+   [testng] post请求5 次开始时间为�?015-08-26 09:59:45|142结束时间为：2015-08-26 09:59:45|282 线程共用时间为：140毫秒
+   [testng] 
+   [testng] post请求5 次�?累积】共用时间为�?96.0毫秒,接口平均响应时间为：99.2毫秒
+   [testng] 
+   [testng] *************************************线程执行结束****************************************
+   [testng] 返回的报文为:
+   [testng]  {
+   [testng]   "result": "success",
+   [testng]   "data": {
+   [testng]     "userQuestions": [
+   [testng]       "1-您父亲的姓名是？-1",
+   [testng]       "2-您母亲的姓名是？-1"
+   [testng]     ]
+   [testng]   },
+   [testng]   "code": "0"
+   [testng] }
+   [testng] {"result":"success","data":{"userQuestions":["1-您父亲的姓名是？-1","2-您母亲的姓名是？-1"]},"code":"0"}
+   [testng] .*"result":"success".*
+   [testng] ============================================
+   [testng] True!   预期和实际返回一�?包含-->"result":"success"
+   [testng] *********************** End testcase **************************************
+   [testng] *********************** Begin testcase **************************************
+   [testng] 测试地址：http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 用例编号�? 用例描述：获取用户安全问�?手机号不正确  预期结果：code:"1100"
+   [testng] 请求为：{toonKey={"authKey":{"appVersion":"3.0","deviceId":"863637027549372","platform":"android","platformVersion":"19","ticket":"D1C4A21F1CD367E20125070091F10A50","userId":"300141","userToken":"92b082d8-ca6b-4105-b6b5-0e804c455ca6"},"bizKey":"{\"mobile\":\"13120202020\"}"}}
+   [testng] ============================================
+   [testng] 测试�?��时间为：2015-08-26 09:59:45
+   [testng] 测试�?��时间为：2015-08-26 09:59:45|345
+   [testng] ----thread---start=----1
+   [testng] ----thread---start=----2
+   [testng] ----thread---start=----3
+   [testng] ----thread---start=----4
+   [testng] ----thread---start=----5
+   [testng] ---start1
+   [testng] ---start2
+   [testng] 2 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 3 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 1 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ---start3
+   [testng] ---start4
+   [testng] ---start5
+   [testng] 4 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 5 - about to post something from http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ===========================================================
+   [testng] 线程->3 - post executed
+   [testng] 线程->3 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 接口返回：id 3---{"result":"error","data":{},"code":"1100"}
+   [testng] ===========================================================
+   [testng] ===========================================================
+   [testng] 线程->4 - post executed
+   [testng] 线程->4 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 接口返回：id 4---{"result":"error","data":{},"code":"1100"}
+   [testng] ===========================================================
+   [testng] ===========================================================
+   [testng] 线程->2 - post executed
+   [testng] 线程->2 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 接口返回：id 2---{"result":"error","data":{},"code":"1100"}
+   [testng] ===========================================================
+   [testng] ===========================================================
+   [testng] 线程->5 - post executed
+   [testng] 线程->5 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] ===========================================================
+   [testng] 线程->1 - post executed
+   [testng] 线程->1 executing request http://172.28.6.111:8080/user/obtainAllUserLoginQuestions
+   [testng] 接口返回：id 5---{"result":"error","data":{},"code":"1100"}
+   [testng] ===========================================================
+   [testng] 接口返回：id 1---{"result":"error","data":{},"code":"1100"}
+   [testng] ===========================================================
+   [testng] ---join--1
+   [testng] ---join--2
+   [testng] ---join--3
+   [testng] ---join--4
+   [testng] ---join--5
+   [testng] 线程 1-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|345结束时间--2015-08-26 09:59:45|486 �?��的时间为�?41毫秒
+   [testng] 
+   [testng] 线程 2-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|345结束时间--2015-08-26 09:59:45|471 �?��的时间为�?26毫秒
+   [testng] 
+   [testng] 线程 3-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|345结束时间--2015-08-26 09:59:45|377 �?��的时间为�?2毫秒
+   [testng] 
+   [testng] 线程 4-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|345结束时间--2015-08-26 09:59:45|424 �?��的时间为�?9毫秒
+   [testng] 
+   [testng] 线程 5-->请求返回状�?码为�?00  �?��时间--2015-08-26 09:59:45|360结束时间--2015-08-26 09:59:45|486 �?��的时间为�?26毫秒
+   [testng] 
+   [testng] post请求5 次开始时间为�?015-08-26 09:59:45|345结束时间为：2015-08-26 09:59:45|486 线程共用时间为：141毫秒
+   [testng] 
+   [testng] post请求5 次�?累积】共用时间为�?04.0毫秒,接口平均响应时间为：100.8毫秒
+   [testng] 
+   [testng] *************************************线程执行结束****************************************
+   [testng] 返回的报文为:
+   [testng]  {
+   [testng]   "result": "error",
+   [testng]   "data": {},
+   [testng]   "code": "1100"
+   [testng] }
+   [testng] {"result":"error","data":{},"code":"1100"}
+   [testng] .*code:"1100".*
+   [testng] ============================================
+   [testng] Fail!   预期和实际返回码不一致：   预期返回：code:"1100"
+   [testng] *********************** End testcase **************************************
+   [testng] finished 
+   [testng] {"authKey":{"appVersion":"3","deviceId":"863637027549371","platform":"android","platformVersion":"19"},"bizKey":"{\"deviceToken\":\"863637027549371\",\"loginType\":\"2\",\"mobile\":\"13581535754\",\"password\":\"111112\",\"uuid\":\"863637027549371\"}"}
+   [testng] {ContentType=application/x-www-form-urlencoded;charset=UTF-8}
+   [testng] 测试地址：http://172.28.6.111:8080/user/userLogin
+   [testng] 用例编号�?  用例描述：用�?登录-失败  预期结果�?
+   [testng] 请求是：{"authKey":{"appVersion":"3","deviceId":"863637027549371","platform":"android","platformVersion":"19"},"bizKey":"{\"deviceToken\":\"863637027549371\",\"loginType\":\"2\",\"mobile\":\"13581535754\",\"password\":\"111112\",\"uuid\":\"863637027549371\"}"}
+   [testng] ============================================
+   [testng] 测试�?��时间为：2015-08-26 09:59:45
+   [testng] ============================================
+   [testng] user/userLogin 该接口响应时间为�?6毫秒
+   [testng] ============================================
+   [testng] 返回结果是：{"result":"success","data":{"status":"2","userId":"0","buildCard":"1","loginErrorTimes":"3","userTopic":"s_0"},"code":"0"}
+   [testng] 返回的报文为:
+   [testng]  {
+   [testng]   "result": "success",
+   [testng]   "data": {
+   [testng]     "status": "2",
+   [testng]     "userId": "0",
+   [testng]     "buildCard": "1",
+   [testng]     "loginErrorTimes": "3",
+   [testng]     "userTopic": "s_0"
+   [testng]   },
+   [testng]   "code": "0"
+   [testng] }
+   [testng] {"result":"success","data":{"status":"2","userId":"0","buildCard":"1","loginErrorTimes":"3","userTopic":"s_0"},"code":"0"}
+   [testng] .*"status": "0".*
+   [testng] ============================================
+   [testng] Fail! 用例编号:1   预期和实际返回码不一致：   预期返回�?status": "0"
+   [testng] ============================================
+   [testng] user/userLogin 该接口请�?次的总时间是46毫秒
+   [testng] ============================================
+   [testng] ============================================
+   [testng] user/userLogin 该接口请�?次的平均时间�?6毫秒
+   [testng] ============================================
+   [testng] 测试结束时间为：2015-08-26 09:59:45
+   [testng] {"authKey":{"appVersion":"3","deviceId":"863637027549371","platform":"android","platformVersion":"19"},"bizKey":"{\"deviceToken\":\"863637027549371\",\"loginType\":\"2\",\"mobile\":\"13581535754\",\"password\":\"111111\",\"uuid\":\"863637027549371\"}"}
+   [testng] {ContentType=application/x-www-form-urlencoded;charset=UTF-8}
+   [testng] 测试地址：http://172.28.6.111:8080/user/userLogin
+   [testng] 用例编号�?  用例描述：用�?登录-成功  预期结果�?
+   [testng] 请求是：{"authKey":{"appVersion":"3","deviceId":"863637027549371","platform":"android","platformVersion":"19"},"bizKey":"{\"deviceToken\":\"863637027549371\",\"loginType\":\"2\",\"mobile\":\"13581535754\",\"password\":\"111111\",\"uuid\":\"863637027549371\"}"}
+   [testng] ============================================
+   [testng] 测试�?��时间为：2015-08-26 09:59:45
+   [testng] ============================================
+   [testng] user/userLogin 该接口响应时间为�?4毫秒
+   [testng] ============================================
+   [testng] 返回结果是：{"result":"success","data":{"status":"1","userId":"300141","userName":"13581535754","token":"6696332d-da75-452f-a758-f1fb8b670192","ticket":"EFA2050FE717F3AE82EB007771705EF0","buildCard":"1","returnMsg":"登录成功","userInfo":{"userId":"300141","password":"CCBA517852D0142C2849384899757F03","email":"haoyuexun@126.com","emailStatus":"0","teleCode":"86","mobilePhone":"13581535754","status":"1","loginProtectStatus":"1","birthday":"19840314","answerToSecretQuestion":"1-698d51a19d8a121ce581499d7b701668@2-bcbe3365e6ac95ea2c0343a2395834dd"},"loginErrorTimes":"3","userTopic":"s_300141"},"code":"0"}
+   [testng] 返回的报文为:
+   [testng]  {
+   [testng]   "result": "success",
+   [testng]   "data": {
+   [testng]     "status": "1",
+   [testng]     "userId": "300141",
+   [testng]     "userName": "13581535754",
+   [testng]     "token": "6696332d-da75-452f-a758-f1fb8b670192",
+   [testng]     "ticket": "EFA2050FE717F3AE82EB007771705EF0",
+   [testng]     "buildCard": "1",
+   [testng]     "returnMsg": "登录成功",
+   [testng]     "userInfo": {
+   [testng]       "userId": "300141",
+   [testng]       "password": "CCBA517852D0142C2849384899757F03",
+   [testng]       "email": "haoyuexun@126.com",
+   [testng]       "emailStatus": "0",
+   [testng]       "teleCode": "86",
+   [testng]       "mobilePhone": "13581535754",
+   [testng]       "status": "1",
+   [testng]       "loginProtectStatus": "1",
+   [testng]       "birthday": "19840314",
+   [testng]       "answerToSecretQuestion": "1-698d51a19d8a121ce581499d7b701668@2-bcbe3365e6ac95ea2c0343a2395834dd"
+   [testng]     },
+   [testng]     "loginErrorTimes": "3",
+   [testng]     "userTopic": "s_300141"
+   [testng]   },
+   [testng]   "code": "0"
+   [testng] }
+   [testng] {"result":"success","data":{"status":"1","userId":"300141","userName":"13581535754","token":"6696332d-da75-452f-a758-f1fb8b670192","ticket":"EFA2050FE717F3AE82EB007771705EF0","buildCard":"1","returnMsg":"登录成功","userInfo":{"userId":"300141","password":"CCBA517852D0142C2849384899757F03","email":"haoyuexun@126.com","emailStatus":"0","teleCode":"86","mobilePhone":"13581535754","status":"1","loginProtectStatus":"1","birthday":"19840314","answerToSecretQuestion":"1-698d51a19d8a121ce581499d7b701668@2-bcbe3365e6ac95ea2c0343a2395834dd"},"loginErrorTimes":"3","userTopic":"s_300141"},"code":"0"}
+   [testng] .*"returnMsg":"登录成功".*
+   [testng] ============================================
+   [testng] True!   预期和实际返回一�?包含-->"returnMsg":"登录成功"
+   [testng] ============================================
+   [testng] user/userLogin 该接口请�?次的总时间是94毫秒
+   [testng] ============================================
+   [testng] ============================================
+   [testng] user/userLogin 该接口请�?次的平均时间�?4毫秒
+   [testng] ============================================
+   [testng] 测试结束时间为：2015-08-26 09:59:45
+   [testng] 
+   [testng] ===============================================
+   [testng] toonApp
+   [testng] Total tests run: 3, Failures: 1, Skips: 0
+   [testng] ===============================================
+   [testng] 
+   [testng] The tests failed.
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+E:\java_code\toonAppTest>

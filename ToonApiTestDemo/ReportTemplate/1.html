@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="height:400px"></div>
+	
+	<div id="main2" style="height:400px"></div>
+    <!-- ECharts单文件引入 -->
+    <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+    <script type="text/javascript">
+        // 路径配置
+        require.config({
+            paths: {
+                echarts: 'http://echarts.baidu.com/build/dist'
+            }
+        });
+        
+        // 使用
+        require(
+            [
+                'echarts',
+                'echarts/chart/bar' // 使用柱状图就加载bar模块，按需加载
+            ],
+            function (ec) {
+                // 基于准备好的dom，初始化echarts图表
+                var myChart = ec.init(document.getElementById('main')); 
+				var myChart2 = ec.init(document.getElementById('main2'));
+                
+                var option = {
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data:['调用时间(单位:ms)']
+                    },
+                    xAxis : [
+                        {
+                            type : 'category',
+                            data : ["用户登录","获取最新版本","获取名片列表","获取名片信息","交换名片","检查手机号有效性","用户登录","获取最新版本","获取名片列表","获取名片信息","交换名片","检查手机号有效性","用户登录","获取最新版本","获取名片列表","获取名片信息","交换名片","检查手机号有效性","用户登录","获取最新版本","获取名片列表","获取名片信息","交换名片","检查手机号有效性","用户登录","获取最新版本","获取名片列表","获取名片信息","交换名片","检查手机号有效性"]
+                        }
+                    ],
+                    yAxis : [
+                        {
+                            type : 'value'
+                        }
+                    ],
+                    series : [
+                        {
+                            "name":"调用时间",
+                            "type":"bar",
+                            "data":[5, 20, 40, 10, 10, 20,5, 20, 40, 10, 10, 20,5, 20, 40, 10, 10, 20,5, 20, 40, 10, 10, 20,5, 20, 40, 10, 10, 20]
+                        }
+                    ]
+                };
+        
+                // 为echarts对象加载数据 
+                myChart.setOption(option); 
+				myChart2.setOption(option); 
+            }
+        );
+    </script>
+</body>

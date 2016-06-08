@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>$ProjectName</title>
+<link rel="stylesheet" type="text/css" href="CSS/default3.css">
+
+</head>
+<body>
+
+<!-- 代码部分begin -->
+<div class="container">
+  <div class="leftsidebar_box">
+    <div class="line"></div>
+    <dl class="system_log">
+      <dt>执行报告<img src="image/select_xl01.png"></dt>
+      <dd class="first_dd"><a >测试结果及日志</a></dd>
+    </dl>
+	
+	<!-- <dl class="statistics">
+      <dt>统计分析<img src="image/select_xl01.png"></dt>
+      <dd class="first_dd" onclick="document.getElementById('myFrame').src='1.html';"><a>接口执行时间统计</a></dd>
+    </dl> -->
+  </div>
+
+<div id="result">
+	<iframe id="myFrame" src='out.html'/>
+</div>
+
+</div>
+
+
+<script src="JS/main.js"></script>
+<script>
+$(function(){
+	$('#myFrame').attr('src', './out.html')
+	$(".leftsidebar_box dt").css({"background-color":"#3992d0"});
+	$(".leftsidebar_box dt img").attr("src","image/select_xl01.png");
+	$(".leftsidebar_box dd").hide();
+	$(".leftsidebar_box dt").click(function(){
+		$(".leftsidebar_box dt").css({"background-color":"#3992d0"})
+		$(this).css({"background-color": "#317eb4"});
+		$(this).parent().find('dd').removeClass("menu_chioce");
+		$(".leftsidebar_box dt img").attr("src","image/select_xl01.png");
+		$(this).parent().find('img').attr("src","image/select_xl.png");
+		$(".menu_chioce").slideUp(); 
+		$(this).parent().find('dd').slideToggle();
+		$(this).parent().find('dd').addClass("menu_chioce");
+	});
+})
+</script>
+<!-- 代码部分end -->
+
+</body>
+</html>

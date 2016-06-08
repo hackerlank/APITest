@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 全局配置信息 -->
+
+<config>
+
+    <!--失败用例重复执行次数--> 
+    <retryTimes>2</retryTimes>
+    
+    <!-- 是否发送邮件 0-发送邮件 1-不发送邮件 -->
+    <isSendEmail>0</isSendEmail>
+    
+    <!-- Jenkins报告路径 -->
+    <jenkinsReportPath>http://172.31.30.53:80/jenkins/job/ToonServiceScanner/ToonServiceScannerReport/</jenkinsReportPath>
+   
+     <!--项目测试结束后，发送邮件的相关配置 -->  
+    <mail>   
+    	 <!--发件人SMTP服务器地址-->  	
+    	<SMTPserver>smtp.163.com</SMTPserver>
+    	
+    	 <!--发件人邮箱地址 -->  
+    	<from>leeforleslie@163.com</from>
+    	
+    	<!--发件人邮箱有户名 -->  
+    	<username>leeforleslie</username>
+    	
+    	<!--发件人邮箱密码  coyegrjyxyxpeahv-->  
+    	<password>WYN19910212</password>
+    	
+    	<!--收件人邮箱地址，多个地址时以英文逗号分隔 -->  
+    	<to>tianyuren11202@163.com,wujie@syswin.com</to>
+    	
+    	<!--抄送人邮箱地址，多个地址时以英文逗号分隔 -->  
+    	<copyTo></copyTo>
+    	
+    	<!--需要添加的附件文件路径 -->  
+    	<filename></filename>
+    	
+    	<!--邮件主题 --> 
+    	<subject>【请勿回复】toon线上接口巡查报告</subject>
+    	
+    	<!--测试项目名称 --> 
+    	<projectName>ToonServiceScanner</projectName>
+      	
+    </mail>
+    
+    <!-- toon基本配置 -->
+    <toon>
+    
+    	<!-- 登录账户 -->
+    	<account>
+    	
+    		<!-- 登录手机 -->
+    		<phone>13911204295</phone>
+    		
+    		<!-- 登录密码 -->
+    		<password>Fiona19870907</password>
+    		
+    		<!-- url -->
+    		<url>http://124.251.88.61:18087/user/userLogin</url>
+    		
+    		
+    		
+    	</account>
+    	
+    	<!-- 设备 -->
+    	<devices>
+    		
+    		<device system="IOS" devicesId=""/>
+    		
+    		<device system="Android" devicesId=""/>
+    		
+    	</devices>
+    	
+    </toon>
+    
+</config>

@@ -1,0 +1,159 @@
+caseId,caseName,title,methodName,method,url,testStepType,testStepID,headers,deviceID,platform,platformVersion,appVersion,mobile,param,if_token,checkPoints
+card/obtainCard,card/obtainCard,获取名片,card/obtainCard,post,http://124.251.88.61:18086/card/obtainCard,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""feedId\"":\""c_1745083193004897\"",\""ownByUserId\"":\""2109\"",\""version\"":\""1456379987680\""}""}",,JSONPATHMATCH:$.code=0
+card/cardFrame,card/cardFrame,面查询,card/cardFrame,post,http://124.251.88.61:18086/card/cardFrame,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""aspectType\"":\""3\"",\""fromFeedId\"":\""c_1450692478362480\"",\""toFeedId\"":\""c_1450692478362480\"",\""version\"":\""1456369907187\""}""}",,JSONPATHMATCH:$.code=0
+card/updateLocationCoordinate,card/updateLocationCoordinate,更新用户位置坐标信息,card/updateLocationCoordinate,post,http://124.251.88.61:18086/card/updateLocationCoordinate,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""adcodes\"":\""110105\"",\""countrycode\"":\""010\"",\""feedIds\"":\""c_3730\"",\""latilongitude\"":\""39.995048749209744,116.45162414032416\""}""}",,JSONPATHMATCH:$.code=0
+card/obtainResumeBaseInfo,card/obtainResumeBaseInfo,获取简历基本信息(个人基本信息),card/obtainResumeBaseInfo,post,http://124.251.88.61:18086/card/obtainResumeBaseInfo ,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""feedId\"" : \""c_1450692478362480\""\n}""
+}",,JSONPATHMATCH:$.code=0
+saveResumeBaseInfo,saveResumeBaseInfo,获取简历基本信息(个人基本信息),saveResumeBaseInfo,post,http://124.251.88.61:18086/card/saveResumeBaseInfo,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""sex\"" : \""0\"",\n  \""birthday\"" : \""2016-02-25\"",\n  \""feedId\"" : \""c_1450692478362480\"",\n  \""summary\"" : \""你好\""\n}""
+}",,JSONPATHMATCH:$.code=0
+createCard,createCard,创建名片,createCard,post,http://124.251.88.61:18086/card/createCard,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""title\"" : \""新名片\"",\n  \""subtitle\"" : \""我就是我\"",\n  \""lbsStatus\"" : \""1\""\n}""
+}",,JSONPATHMATCH:$.code=0
+obtainCardFieldConfig,obtainCardFieldConfig,获取名片配置字段表,obtainCardFieldConfig,post,http://124.251.88.61:18086/card/obtainCardFieldConfig,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""version\"" : \""1456388218794\""\n}""
+}",,JSONPATHMATCH:$.code=0
+obtainCardRecommendationList,obtainCardRecommendationList,获取名片推荐列表,obtainCardRecommendationList,post,http://124.251.88.61:18086/card/obtainCardRecommendationList,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""version\"" : \""0\"",\n  \""feedId\"" : \""c_305252\""\n}""
+}",,JSONPATHMATCH:$.code=0
+card/obtainCardLF,card/obtainCardLF,获取名片列表面,card/obtainCardLF,post,http://124.251.88.61:18086/card/obtainCardLF,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""toFeedId\"":\""c_1745083193004897\""}""}",,JSONPATHMATCH:$.code=0
+contact/obtainContactFeed,contact/obtainContactFeed,获取联系人feed（通讯录）,contact/obtainContactFeed,post,http://124.251.88.61:18097/contact/obtainContactFeed,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""userId\"":\""2109\"",\""version\"":\""1456365272427\""}""}",,JSONPATHMATCH:$.code=0
+group/obtainGroupFeedList,group/obtainGroupFeedList,根据用户Id获取用户下所有名片发起或参与的群组,group/obtainGroupFeedList,post,http://124.251.88.61:18082/group/obtainGroupFeedList,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""userId\"":\""2109\"",\""version\"":\""0\""}""}",,JSONPATHMATCH:$.code=0
+group/queryDefaultRecommendGroupListNew,group/queryDefaultRecommendGroupListNew,获取默认推荐群组列表,group/queryDefaultRecommendGroupListNew,post,http://124.251.88.61:18082/group/queryDefaultRecommendGroupListNew,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""defaultRecomType\"":\""1\""}""}",,JSONPATHMATCH:$.code=0
+group/obtainGroupSpreadCategory,group/obtainGroupSpreadCategory,获取群组传播分类,group/obtainGroupSpreadCategory,post,http://124.251.88.61:18082/group/obtainGroupSpreadCategory,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""type\"":\""2\""}""}",,JSONPATHMATCH:$.code=0
+group/getGroupUserFeedIdsWithCounts,group/getGroupUserFeedIdsWithCounts,根据群组feedId列表获取群组人数列表,group/getGroupUserFeedIdsWithCounts,post,http://124.251.88.61:18082/group/getGroupUserFeedIdsWithCounts,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Andorid"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""feedIdList\"" : [\n\n  ]\n}""
+}",,JSONPATHMATCH:$.code=0
+feed/obtainAllCardFeedIdList,feed/obtainAllCardFeedIdList,批量查询名片FeedId接口,feed/obtainAllCardFeedIdList,post,http://124.251.88.61:18089/feed/obtainAllCardFeedIdList,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}1""},""bizKey"":""{\""cardVersion\"":\""0\"",\""orgCardVersion\"":\""0\"",\""staffCardVersion\"":\""0\"",\""userId\"":\""2109\""}""}",,JSONPATHMATCH:$.code=0
+feed/obtainFeedList,feed/obtainFeedList,批量查询Feed接口,feed/obtainFeedList,post,http://124.251.88.61:18089/feed/obtainFeedList,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}1""},""bizKey"":""{\""feedIds\"":[\""c_1745083193004897\"",\""c_3730\"",\""c_1450692478362480\""]}""}",,JSONPATHMATCH:$.code=0
+feed/obtainFeed,feed/obtainFeed,查询Feed接口,feed/obtainFeed,post,http://124.251.88.61:18089/feed/obtainFeed,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}1""},""bizKey"":""{\""feedId\"":\""c_1745083193004897\"",\""version\"":\""0\""}""}",,JSONPATHMATCH:$.code=0
+feed/obtainUserIdList,feed/obtainUserIdList,批量查询userId接口,feed/obtainUserIdList,post,http://124.251.88.61:18089/feed/obtainUserIdList,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""feedIds\"" : [\n    \""c_305252\""\n  ]\n}""
+}",,JSONPATHMATCH:$.code=0
+plugin/obtainFunctionPlugin,plugin/obtainFunctionPlugin,获取功能插件列表及推荐广告列表,plugin/obtainFunctionPlugin,post,http://124.251.88.61:18083/plugin/obtainFunctionPlugin,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""source\"":\""2\"",\""userId\"":\""2109\""}""}",,JSONPATHMATCH:$.code=0
+plugin/obtainSuggestIcons,plugin/obtainSuggestIcons,获取推荐的插件图标库,plugin/obtainSuggestIcons,post,http://124.251.88.61:18083/plugin/obtainSuggestIcons,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""platform"":""android"",""platformVersion"":""19"",""ticket"":""${ticket}"",""userId"":""2109"",""userToken"":""${token}""},""bizKey"":""{\""source\"":\""2\"",\""userId\"":\""2109\""}""}",,JSONPATHMATCH:$.code=0
+plugin/getBizServiceStatus,plugin/getBizServiceStatus,获得服务增量状态,plugin/getBizServiceStatus,post,http://124.251.88.61:18083/plugin/getBizServiceStatus,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={""authKey"":{""platformVersion"":""19"",""platform"":""android"",""userToken"":""${token}"",""ticket"":""${ticket}"",""appVersion"":""3.1.4"",""deviceId"":""${deviceId}"",""userId"":""2109""},""bizKey"":{""lastDate"":""0""}}",,JSONPATHMATCH:$.code=0
+plugin/getInputPanelApp,plugin/getInputPanelApp,获取输入面板常用应用接口,plugin/getInputPanelApp,post,http://124.251.88.61:18083/plugin/getInputPanelApp,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""chatMode\"" : \""0\""\n}""
+}",,JSONPATHMATCH:$.code=0
+plugin/obtainUsedAppList,plugin/obtainUsedAppList,获得已使用的应用列表,plugin/obtainUsedAppList,post,http://124.251.88.61:18083/plugin/obtainUsedAppList,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""userId\"" : \""2109\"",\n  \""source\"" : \""3\""\n}""
+}",,JSONPATHMATCH:$.code=0
+plugin/obtainAppInfoByNamespace,plugin/obtainAppInfoByNamespace,根据命名空间获取应用信息,plugin/obtainAppInfoByNamespace,post,http://124.251.88.61:18083/plugin/obtainAppInfoByNamespace,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""nameSpace\"" : \""fangtoon-weituo.dev.systoon.com\""\n}""
+}",,JSONPATHMATCH:$.code=0
+found/findDiscovery,found/findDiscovery,条件搜索,found/findDiscovery,post,http://124.251.88.61:18090/found/findDiscovery,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""pageNumber\"" : \""1\"",\n  \""searchCode\"" : \""single\"",\n  \""userId\"" : \""2109\"",\n  \""objectType\"" : \""5\"",\n  \""text\"" : \""1\""\n}""
+}",,JSONPATHMATCH:$.code=0
+found/findSurround,found/findSurround,搜索周边,found/findSurround,post,http://124.251.88.61:18090/found/findSurround,1,1,Content-Type:application/x-www-form-urlencoded;charset=utf-8,0,IOS,2.3,333,asdf,"toonKey={
+  ""authKey"" : {
+    ""deviceId"" : ""${deviceId}"",
+    ""ticket"" : ""${ticket}"",
+    ""userId"" : ""2109"",
+    ""appVersion"" : ""3.1.3"",
+    ""platform"" : ""Android"",
+    ""platformVersion"" : ""19"",
+    ""userToken"" : ""${token}""
+  },
+  ""bizKey"" : ""{\n  \""pageNumber\"" : \""1\"",\n  \""latilongitude\"" : \""39.9951361966796810,116.4514820635514809\"",\n  \""searchCode\"" : \""single\"",\n  \""userId\"" : \""2109\"",\n  \""objectType\"" : \""5\""\n}""
+}",,JSONPATHMATCH:$.code=0

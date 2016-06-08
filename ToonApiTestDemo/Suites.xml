@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SYSWINTEST">
+	<listeners>
+	     <listener class-name="com.toon.api.testng.Liseners.ReportLisener" />
+	</listeners>
+	
+	<!--  <test name="用户接口">
+		<classes>
+			<class name="com.toon.api.cases.UserLogin" />
+		 </classes>
+	</test>-->
+	
+    <test name="线上接口巡查">
+    	<parameter name="filePath" value="data/线上接口巡查.csv"/> 
+    	<parameter name="header" value="caseId,caseName,title,methodName,method,url,testStepType,testStepID,headers,deviceID,platform,platformVersion,appVersion,mobile,param,if_token,checkPoints"/> 
+		<classes>
+			<class name="com.toon.api.cases.democase" />
+		 </classes>
+    </test>
+    
+   <!--   <test name="Activity2">
+    	<parameter name="filePath" value="data/Activity2.csv"/> 
+    	<parameter name="header" value="caseId,caseName,title,methodName,method,url,testStepType,testStepID,headers,deviceID,platform,platformVersion,appVersion,mobile,param,if_token,checkPoints"/> 
+		<classes>
+		    <class name="com.toon.api.cases.democase" />
+		 </classes>
+    </test> -->
+</suite>

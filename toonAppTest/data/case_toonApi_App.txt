@@ -1,0 +1,2 @@
+	获取用户安全问题	user/obtainAllUserLoginQuestions	http://172.28.6.111:8080/user/obtainAllUserLoginQuestions	863637027549372	android	19	3.0	13581535754	{"mobile":""}	yes	"result":"success"		
+	获取用户安全问题-手机号不正确	user/obtainAllUserLoginQuestions	http://172.28.6.111:8080/user/obtainAllUserLoginQuestions	863637027549372	android	19	3.0	13581535754	{"mobile":"13120202020"}	yes	code:"1100"		
